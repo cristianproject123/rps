@@ -1,0 +1,57 @@
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #030303;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1rem;
+}
+
+.container {
+    margin-top: 2rem;
+}
+
+.card {
+    box-shadow: 0 4px 6px rgb(0, 0, 0);
+    border-radius: 12px;
+}
+
+.shape-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.shape-button img {
+    width: 100px;
+    height: auto;
+}
+
+.choice-image {
+    width: 100px;  
+    height: auto;  
+    display: block;
+    margin: 0 auto;
+}
+
+/* Media Queries for Mobile Screens */
+@media screen and (max-width: 768px) {
+    .shape-button img {
+        width: 80px;
+    }
+    
+    .header {
+        padding: 0.8rem;
+    }
+    
+    .card {
+        margin: 0 1rem;
+    }
+    
+    body {
+        background-color: #f0f0f0;
+    }
+}
